@@ -95,13 +95,13 @@ void WHILE() {
 void DOWHILE() {
   int dowhileBegin = nextLabel();
   int dowhileEnd = nextLabel();
-  emit("(L%d)\n", dowhileBegin);
+  emit("(L%d)\n", dowhileBegin);  // do part
   skip("do");
   STMT();
   emit("goto L%d\n", dowhileBegin);
   emit("(L%d)\n", dowhileEnd);
-  
-  skip("while");
+
+  skip("while");  //while part
   skip("(");
   int e = E();
   emit("if not T%d goto L%d\n", e, dowhileEnd);
@@ -111,7 +111,7 @@ void DOWHILE() {
 
 // STMT = WHILE | BLOCK | ASSIGN
 void STMT() {
-  if (isNext("do")) 
+  if (isNext("do")) //多抓一個 do的在'WHILE'之前
     DOWHILE();
   else if (isNext("while"))
     WHILE();
