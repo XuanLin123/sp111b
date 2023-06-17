@@ -121,3 +121,5 @@ C4 編譯器的衍生功能可以根據具體的需求和使用場景而有所�
 [C4 -- 500 行的 C 語言編譯器](https://github.com/ccc111b/cpu2os/tree/master/A4-%E5%8F%83%E8%80%83%E5%B0%88%E6%A1%88/compiler/c4)    
 [C in four function (c4) Compiler](https://hackmd.io/@srhuang/Bkk2eY5ES)    
 [C4：4个函数，528行代码实现可自举的 C语言编译器](https://blog.csdn.net/pyf09/article/details/113769048)
+
+* [HackMD連結](https://hackmd.io/@LSX-0123/BkqzXV_v2)

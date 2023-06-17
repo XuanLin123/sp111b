@@ -715,3 +715,6 @@ void next()
 [c4 - C in four functions](https://github.com/rswier/c4)
 [C in four function (c4) Compiler](https://hackmd.io/@srhuang/Bkk2eY5ES)    
 [c4 -- 編譯器 ccc 加註解後的原始碼版本](https://github.com/ccc111b/cpu2os/blob/master/A4-%E5%8F%83%E8%80%83%E5%B0%88%E6%A1%88/README.md)
+
+
+* [HackMD連結](https://hackmd.io/@LSX-0123/BkqzXV_v2)
